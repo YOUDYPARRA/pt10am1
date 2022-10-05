@@ -1,0 +1,16 @@
+{
+  "name": "01-intro-to-cs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "homework.js",
+  "scripts": {
+    "test": "jest --collectCoverage=false CS.test.js",
+    "grade": "jest --useStderr --json --outputFile=./tests/result.json",
+    "start": "nodemon "
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
