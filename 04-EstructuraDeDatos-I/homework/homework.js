@@ -58,13 +58,11 @@ Queue.prototype.dequeue= function(){/**dequeue: remueve el primer valor de la li
 if(this.arr.length==0){
   return undefined;
 }else{
-return this.arr.shift();
-
+  return this.arr.shift();
 }
 }
 Queue.prototype.print=function(){
   console.log(this.arr);
-
 }
 var  arr = new Queue();
 console.log(arr.size());
