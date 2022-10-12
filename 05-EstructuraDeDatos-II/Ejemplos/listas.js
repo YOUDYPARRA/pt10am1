@@ -105,11 +105,11 @@ Lista.prototype.find = function(val) {
 	} 
 }
 
-// var list = new Lista();
+ var list = new Lista();
 
-// list.push(1);
+ list.push(1);
 // list.push(2);
 // list.push(3);
 // list.push(4);
 
-// list.print()
+ list.print()

@@ -158,7 +158,7 @@ describe('HashTable', function() {
   });
 
   it('deberia manejar colisiones', function() {
-    hashTable.set('foo', 'bar1');
+    hashTable.set('foo', 'bar1'); 
     hashTable.set('ofo', 'bar2');
     expect(hashTable.get('ofo')).toBe('bar2');
     expect(hashTable.get('foo')).toBe('bar1');
